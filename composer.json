@@ -1,0 +1,21 @@
+{
+    "name": "laszlopalvoelgyi/csvreplace",
+    "description": "Sring replate into csv file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "palvoelgyilaszlo",
+            "email": "l.palvoelgyi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laszlopalvoelgyi/helper": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+          "Palvoelgyi\\CsvRepace\\": "src/"
+        }
+      }
+}
